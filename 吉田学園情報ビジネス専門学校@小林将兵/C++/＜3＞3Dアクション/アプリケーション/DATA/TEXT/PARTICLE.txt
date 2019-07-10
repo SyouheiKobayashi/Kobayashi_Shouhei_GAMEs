@@ -1,0 +1,15 @@
+
+#モデルの読み込み
+TEX_LOAD
+
+#読み込むテクスチャの数
+NUM_TEXTURE = 4
+
+#読み込むテクスチャ
+TEXTURE_NAME DATA/TEXTURE/EFFECT/effect01.png
+TEXTURE_NAME DATA/TEXTURE/Particle01.png
+TEXTURE_NAME DATA/TEXTURE/Particle02.png
+TEXTURE_NAME DATA/TEXTURE/Particle03.png
+
+#モデルの読み込み終了
+END_TEX_LOAD
