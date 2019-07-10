@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3BA1E299-0DE3-4633-9BA0-189415675121}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>My2018年冬ハッカソン</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\bg.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\bullet.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\clear.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\door.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\effect.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\enemy.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\explosion.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\fade.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\frontbg.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\game.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\input.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\main.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\Pause.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\player.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\ranking.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\result.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\score.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\serect.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\sound.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\time.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\title.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\tutorial.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\bg.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\bullet.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\clear.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\door.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\effect.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\enemy.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\explosion.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\fade.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\frontbg.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\game.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\input.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\main.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\Pause.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\player.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\ranking.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\result.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\score.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\serect.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\sound.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\time.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\title.h" />
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\2年生作品\イベント\2018年%40冬ハッカソン\2018年%40冬ハッカソン\tutorial.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
