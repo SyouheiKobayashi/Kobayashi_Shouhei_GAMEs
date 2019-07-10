@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\badItem.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\billboard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\bullet.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\clear.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\collisionModel.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\dummymodel.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\effect.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\explosion.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\fade.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\fallingRocks.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\game.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\input.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\item.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\layout.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\light.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\meshField.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\meshWall.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\polygon.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\ranking.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\result.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\score.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\shadow.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\sound.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\stage.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\timer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\title.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\tutorial.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\wall.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\badItem.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\billboard.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\bullet.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\camera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\clear.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\collisionModel.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\dummymodel.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\effect.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\explosion.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\fade.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\fallingRocks.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\game.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\input.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\item.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\layout.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\light.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\meshField.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\meshWall.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\polygon.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\ranking.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\result.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\score.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\shadow.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\sound.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\stage.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\timer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\title.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\tutorial.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\吉田学園情報ビジネス専門学校%40小林将兵\制作作品 まとめ\1年生作品\個人制作\3Dアクション\1年生%403Dアクション\wall.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
